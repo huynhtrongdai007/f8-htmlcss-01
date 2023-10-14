@@ -43,6 +43,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: calc(100vh - 90px);
     position: relative;
     background-color: #E6F0FF;
@@ -103,15 +104,12 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    margin-top: 130px;
-}
 
-.hero .info {
+ .info {
     width: 51%;
 }
 
-.hero .sub-title {
+ .sub-title {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -119,14 +117,14 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.title {
     font-size: 6.2rem;
     font-weight: 700;
     line-height: 1.19;
     color: #000336;
 }
 
-.hero .desc {
+.desc {
     margin-top: 30px;
     font-size: 1.8rem;
     font-weight: 400;
